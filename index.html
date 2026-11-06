@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Muhammad Jawad — Computer Science graduate and Full Stack Web Developer portfolio." />
+  <title>Muhammad Jawad | Full Stack Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+  <div class="ambient ambient-one"></div><div class="ambient ambient-two"></div>
+  <header class="header">
+    <a class="logo" href="#home"><span class="logo-mark">J</span><span>jawad<span class="accent">.</span></span></a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Open navigation"><i data-lucide="menu"></i></button>
+    <nav id="nav">
+      <a href="#home" class="nav-link active">Home</a><a href="#about" class="nav-link">About</a>
+      <a href="#skills" class="nav-link">Skills</a><a href="#projects" class="nav-link">Projects</a>
+      <a href="#contact" class="nav-link">Contact</a>
+      <a class="nav-cta" href="#contact">Let's talk <i data-lucide="arrow-up-right"></i></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy reveal">
+        <div class="eyebrow"><span class="status-dot"></span> OPEN TO OPPORTUNITIES <span class="eyebrow-line"></span></div>
+        <p class="intro">Hello, I'm</p>
+        <h1>Muhammad<br><span class="gradient-text">Jawad.</span></h1>
+        <h2>Full Stack Web Developer <span class="muted">|</span> <span class="type-text" id="typeText">MERN Stack</span></h2>
+        <p class="hero-description">I build modern, responsive and user-focused web experiences with clean design and practical functionality.</p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#projects">Explore my work <i data-lucide="arrow-up-right"></i></a>
+          <a class="btn btn-ghost" href="#contact"><i data-lucide="mail"></i> Contact me</a>
+        </div>
+        <div class="social-row">
+          <a href="https://github.com/jawadkhattak0001-hash" target="_blank" rel="noreferrer"><i data-lucide="github"></i> GitHub</a>
+          <a href="#" aria-label="Add your LinkedIn URL"><i data-lucide="linkedin"></i> LinkedIn</a>
+          <span class="location"><i data-lucide="map-pin"></i> Pakistan</span>
+        </div>
+      </div>
+      <div class="hero-visual reveal">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div>
+        <div class="profile-card">
+          <div class="card-top"><span class="window-dots"><b></b><b></b><b></b></span><span>developer.profile</span><i data-lucide="ellipsis"></i></div>
+          <div class="avatar"><span>MJ</span><div class="avatar-ring"></div></div>
+          <h3>Muhammad Jawad</h3><p class="card-role">Full Stack Web Developer</p>
+          <div class="card-tags"><span>HTML</span><span>CSS</span><span>JavaScript</span><span>React</span><span>Node.js</span></div>
+          <div class="code-snippet"><span class="code-purple">const</span> developer = {<br>&nbsp; name: <span class="code-green">"Jawad"</span>,<br>&nbsp; passion: <span class="code-green">"Building for the web"</span>,<br>&nbsp; mindset: <span class="code-green">"Always learning"</span><br>};<span class="cursor">_</span></div>
+        </div>
+        <div class="float-chip chip-code"><i data-lucide="code-2"></i> Clean code</div>
+        <div class="float-chip chip-spark"><i data-lucide="sparkles"></i> Creative ideas</div>
+      </div>
+      <a class="scroll-cue" href="#about"><span></span> SCROLL TO EXPLORE</a>
+    </section>
+
+    <section class="section about-section" id="about">
+      <div class="section-heading reveal"><p class="section-kicker">01 / ABOUT ME</p><h2>A little about <span class="gradient-text">my journey.</span></h2></div>
+      <div class="about-grid">
+        <div class="about-copy reveal"><p class="lead">Curious mind. Practical builder. Lifelong learner.</p>
+          <p>I am a fresh Computer Science graduate from <strong>Khushal Khan Khattak University, Karak</strong>, Pakistan. My main interest is full stack web development, especially building useful applications with the MERN stack.</p>
+          <p>I enjoy turning ideas into working products, learning new technologies and improving the way people interact with software. I am also interested in exploring AI-assisted development and emerging areas such as robotics technology.</p>
+          <a class="text-link" href="#contact">Let's build something <i data-lucide="arrow-up-right"></i></a>
+        </div>
+        <div class="stats-grid reveal">
+          <div class="stat-card"><span class="stat-icon"><i data-lucide="graduation-cap"></i></span><strong>BS</strong><span>Computer Science</span></div>
+          <div class="stat-card"><span class="stat-icon"><i data-lucide="layers"></i></span><strong>MERN</strong><span>Development focus</span></div>
+          <div class="stat-card"><span class="stat-icon"><i data-lucide="lightbulb"></i></span><strong>Curious</strong><span>Always learning</span></div>
+          <div class="stat-card"><span class="stat-icon"><i data-lucide="rocket"></i></span><strong>Building</strong><span>Real-world projects</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section skills-section" id="skills">
+      <div class="section-heading reveal"><p class="section-kicker">02 / WHAT I WORK WITH</p><h2>My <span class="gradient-text">toolkit.</span></h2><p class="section-subtitle">Technologies and tools I have worked with or am actively learning.</p></div>
+      <div class="skills-grid">
+        <article class="skill-card reveal"><div class="skill-icon purple"><i data-lucide="monitor"></i></div><h3>Frontend</h3><p>Building responsive and interactive user interfaces.</p><div class="skill-pills"><span>HTML5</span><span>CSS3</span><span>JavaScript</span><span>React.js</span><span>Tailwind CSS</span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon cyan"><i data-lucide="server"></i></div><h3>Backend</h3><p>Creating application logic, APIs and server-side features.</p><div class="skill-pills"><span>Node.js</span><span>Express.js</span><span>REST APIs</span><span>Python (Basics)</span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon pink"><i data-lucide="database"></i></div><h3>Database & Tools</h3><p>Working with data, version control and development tools.</p><div class="skill-pills"><span>MongoDB</span><span>Git</span><span>GitHub</span><span>VS Code</span></div></article>
+        <article class="skill-card reveal"><div class="skill-icon orange"><i data-lucide="brain-circuit"></i></div><h3>Exploring</h3><p>Growing my knowledge of intelligent and emerging technologies.</p><div class="skill-pills"><span>AI-assisted development</span><span>Machine Learning (Basics)</span><span>Robotics</span></div></article>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects">
+      <div class="section-heading reveal"><p class="section-kicker">03 / SELECTED WORK</p><h2>Projects I've <span class="gradient-text">worked on.</span></h2><p class="section-subtitle">A selection of academic and practical projects.</p></div>
+      <div class="projects-grid">
+        <article class="project-card featured reveal"><div class="project-visual fir-visual"><div class="visual-glow"></div><div class="mock-window"><div class="mock-bar"><i></i><i></i><i></i><span>SmartFIR dashboard</span></div><div class="mock-content"><div class="mock-side"></div><div class="mock-main"><div class="mock-heading"></div><div class="mock-stats"><i></i><i></i><i></i></div><div class="mock-table"><b></b><b></b><b></b><b></b></div></div></div></div><span class="project-number">01</span></div><div class="project-info"><div class="project-type">FINAL YEAR PROJECT</div><h3>Online Smart FIR System</h3><p>A web-based system concept designed to support online FIR submission and management workflows.</p><div class="project-tags"><span>MERN Stack</span><span>Web Application</span><span>Academic Project</span></div><a class="project-link" href="https://github.com/jawadkhattak0001-hash" target="_blank" rel="noreferrer">View GitHub profile <i data-lucide="arrow-up-right"></i></a></div></article>
+        <article class="project-card reveal"><div class="project-visual admission-visual"><div class="project-number">02</div><div class="visual-icon"><i data-lucide="graduation-cap"></i></div><div class="visual-label">ADMISSIONS PORTAL</div><div class="visual-lines"><i></i><i></i><i></i></div></div><div class="project-info"><div class="project-type">WEB APPLICATION</div><h3>College Admissions System</h3><p>A project focused on organizing student admission information and application workflows.</p><div class="project-tags"><span>Web Development</span><span>Database</span></div><a class="project-link" href="https://github.com/jawadkhattak0001-hash" target="_blank" rel="noreferrer">View on GitHub <i data-lucide="arrow-up-right"></i></a></div></article>
+        <article class="project-card reveal"><div class="project-visual feedback-visual"><div class="project-number">03</div><div class="visual-icon"><i data-lucide="message-square-heart"></i></div><div class="visual-label">STUDENT FEEDBACK</div><div class="feedback-bubbles"><span>Great experience!</span><span>★★★★★</span></div></div><div class="project-info"><div class="project-type">WEB APPLICATION</div><h3>Student Feedback System</h3><p>A platform concept for collecting and managing student feedback in an organized way.</p><div class="project-tags"><span>Web Development</span><span>CRUD</span></div><a class="project-link" href="https://github.com/jawadkhattak0001-hash" target="_blank" rel="noreferrer">View on GitHub <i data-lucide="arrow-up-right"></i></a></div></article>
+        <article class="project-card reveal"><div class="project-visual python-visual"><div class="project-number">04</div><div class="visual-icon"><i data-lucide="workflow"></i></div><div class="visual-label">LEFT FACTORING TOOL</div><div class="terminal-mini"><span>›</span> Python + Tkinter</div></div><div class="project-info"><div class="project-type">PYTHON / CLASS PROJECT</div><h3>Left Factoring Automation Tool</h3><p>A simple GUI-based tool built to demonstrate left factoring in compiler design.</p><div class="project-tags"><span>Python</span><span>Tkinter</span><span>Compiler Design</span></div><a class="project-link" href="https://github.com/jawadkhattak0001-hash" target="_blank" rel="noreferrer">View on GitHub <i data-lucide="arrow-up-right"></i></a></div></article>
+      </div>
+      <p class="project-note"><i data-lucide="info"></i> Replace the GitHub profile links above with each project's direct repository URL when available.</p>
+    </section>
+
+    <section class="section learning-section">
+      <div class="learning-panel reveal"><div><p class="section-kicker">04 / WHAT'S NEXT</p><h2>Learning today.<br><span class="gradient-text">Building tomorrow.</span></h2><p>I believe strong developers keep experimenting. I am currently strengthening my development skills while exploring AI-assisted workflows and robotics-related technologies.</p><a class="btn btn-primary" href="#contact">Connect with me <i data-lucide="arrow-up-right"></i></a></div><div class="learning-art"><div class="learning-orb"><i data-lucide="atom"></i></div><span class="orbit-label label-one">WEB</span><span class="orbit-label label-two">AI</span><span class="orbit-label label-three">ROBOTICS</span></div></div>
+    </section>
+
+    <section class="section contact-section" id="contact">
+      <div class="section-heading reveal"><p class="section-kicker">05 / GET IN TOUCH</p><h2>Have an idea? <span class="gradient-text">Let's connect.</span></h2><p class="section-subtitle">I'm open to entry-level opportunities, collaborations and learning experiences.</p></div>
+      <div class="contact-grid reveal"><div class="contact-copy"><h3>Let's make something useful.</h3><p>Have a project, opportunity or just want to say hello? Send me a message.</p><a href="@jawad031788gmail.com" class="contact-item"><span><i data-lucide="mail"></i></span><div><small>EMAIL</small><strong>YOUR_EMAIL@example.com</strong></div></a><a href="https://github.com/jawadkhattak0001-hash" target="_blank" rel="noreferrer" class="contact-item"><span><i data-lucide="github"></i></span><div><small>GITHUB</small><strong>jawadkhattak0001-hash</strong></div></a></div>
+        <form class="contact-form" id="contactForm"><label for="name">Your name</label><input id="name" name="name" placeholder="Enter your name" required><label for="email">Email address</label><input id="email" name="email" type="email" placeholder="you@example.com" required><label for="message">Your message</label><textarea id="message" name="message" rows="4" placeholder="Tell me about your idea..." required></textarea><button class="btn btn-primary" type="submit">Send message <i data-lucide="send"></i></button><p class="form-note" id="formNote">This opens your email app with the message ready to send.</p></form>
+      </div>
+    </section>
+  </main>
+  <footer><a class="logo" href="#home"><span class="logo-mark">J</span><span>jawad<span class="accent">.</span></span></a><p>Designed & built with curiosity by Muhammad Jawad.</p><a href="#home" class="back-top">Back to top ↑</a></footer>
+  <script src="script.js"></script>
+</body>
+</html>
