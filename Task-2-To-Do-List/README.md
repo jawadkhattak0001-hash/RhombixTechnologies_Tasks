@@ -1,42 +1,56 @@
-# TaskFlow – To-Do List App
+# 📝 Task 2 – To-Do List Web Application
 
-A responsive To-Do List application created for **Rhombix Technologies – Web Development, Task 2**.
+A simple and user-friendly To-Do List Web Application developed as part of the **Rhombix Technologies Internship Tasks**.
 
-## Features
+This project helps users organize their daily activities and manage tasks through a clean and responsive interface.
+
+## 🚀 Features
+
 - Add new tasks
-- Edit existing tasks
-- Delete tasks with confirmation
-- Mark tasks as completed or active
-- Filter tasks: All, Active, and Done
-- View total, remaining, and completed task counts
-- Automatically save tasks in browser Local Storage
-- Responsive layout for desktop and mobile screens
+- Manage daily tasks
+- Mark tasks as completed
+- Delete tasks
+- Simple and user-friendly interface
+- Responsive design
 
-## Technologies
+## 🛠️ Technologies Used
+
 - HTML5
 - CSS3
-- Vanilla JavaScript
-- Browser Local Storage
+- JavaScript
 
-## How to Run
-1. Download and extract the ZIP file.
-2. Open the extracted `Rhombix_Task_2_Todo_List` folder in Visual Studio Code.
-3. Open `index.html` in your browser, or use the VS Code Live Server extension.
-4. Add a task to get started.
+## 📂 Project Structure
 
-No backend or package installation is required.
-
-## Project Structure
 ```text
-Rhombix_Task_2_Todo_List/
+Task-2-To-Do-List/
+│
 ├── index.html
 ├── style.css
 ├── script.js
 └── README.md
 ```
 
-## Data Storage
-Tasks are stored in the browser's Local Storage under the key `taskflow_tasks`. They remain available after refreshing the page in the same browser, unless the browser's site data is cleared.
+## 💻 How to Run the Project
 
-## Internship Task
-**Task 2: TO-DO LIST** – Build an application that allows users to add, edit, and delete tasks, using HTML, CSS, JavaScript, and Local Storage.
+1. Download or clone this repository.
+2. Open the `Task-2-To-Do-List` folder.
+3. Open `index.html` in your web browser.
+4. Start managing your tasks!
+
+## 🔗 GitHub Repository
+
+[RhombixTechnologies_Tasks](https://github.com/jawadkhattak0001-hash/RhombixTechnologies_Tasks)
+
+## 👨‍💻 Developer
+
+**Muhammad Jawad**
+
+BS Computer Science Graduate
+
+## 🎯 Internship
+
+**Rhombix Technologies – Task 2**
+
+---
+
+⭐ Thank you for visiting my project!
